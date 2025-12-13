@@ -72,18 +72,6 @@ winfetch
 
 ---
 
-## 📂 Project Structure
-
-```
-winfetch/
-│── src/ 
-│── Makefile  
-│── README.md
-│── .gitignore
-```
-
----
-
 ## 🎯 Why I Built This
 
 I built WinFetch as a **learning project** to:
