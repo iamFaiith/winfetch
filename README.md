@@ -13,9 +13,9 @@ Please forgive me because **my code** is trash.
 ## ✨ Features
 
 * Shows Windows OS information
-* Displays system details like CPU, memory, and build number
+* Displays system details like CPU, memory, gpu and drive 
 * Simple and clean terminal output
-* No heavy dependencies
+* No extra dependencies
 * Made completely using **C++ and Windows API**
 
 ---
