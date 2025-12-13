@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**",
+
+        // Windows SDK or VS headers
+        "C:/Program Files (x86)/Windows Kits/10/Include/version/ucrt/**",
+        "C:/Program Files (x86)/Windows Kits/10/Include/version/shared/**",
+        "C:/Program Files (x86)/Windows Kits/10/Include/version/um/**",
+        "C:/Program Files (x86)/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/**/include/**",
+        "C:/your_compiler_path/include/**"
+      ],
+
+      "defines": [
+        "UNICODE",
+        "_UNICODE",
+      ],
+
+      "compilerPath": "your_compiler_path/g++.exe",
+      "intelliSenseMode": "windows-gcc-x64",
+      "cStandard": "c17",
+      "cppStandard": "c++20"
+    }
+  ],
+  "version": 4
+}
