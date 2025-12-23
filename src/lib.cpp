@@ -436,7 +436,7 @@ getBatteryStatus(){
     SetColor(7);
   }else{
     SetColor(10);
-    std::wcout << (ps.BatteryLifePercent) << "%";
+    std::wcout << (ps.BatteryLifePercent) << "%" << std::endl;
     SetColor(7);
   }
 
