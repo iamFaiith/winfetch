@@ -1,14 +1,10 @@
 # WinFetch
 
----
-
 WinFetch is a small **Windows-only CLI tool** inspired by FastFetch. It shows basic system information directly in the terminal in a clean and simple way.
 
 This tool is made **only for Windows** and focuses on being lightweight and easy to understand.
 
 Please forgive me because **my code** is trash.
-
----
 
 ## ✨ Features
 
@@ -18,28 +14,6 @@ Please forgive me because **my code** is trash.
 * No extra dependencies
 * Made completely using **C++ and Windows API**
 
----
-
-## 🖥️ Supported Platforms
-
-* ✅ Windows 10
-* ✅ Windows 11
-
-> ❌ Not supported on Linux or macOS
-
----
-
-## 📦 Installation
-
-### Using Winget (if available)
-
-```bash
-winget install winfetch
-```
-
-> If Winget support is not available yet, you can build it from source.
-
----
 
 ## 🛠️ Build From Source
 
@@ -49,28 +23,31 @@ winget install winfetch
 * C++ compiler (MSVC / MinGW / Clang)
 * Git
 
-### Steps
+### Step 1
+>**Copy repo**
+
+Run to copy:
 
 ```bash
 git clone https://github.com/iamfaiith/winfetch.git
 cd winfetch
 ```
-
-#### Build using Makefile (to make you smile)
+### Step 2
+>**Compile or Build using Makefile**
 
 Run to build:
 
 ```bash
 make
 ```
+### Step 3
+>**After building**
 
-After building, run:
+Now run:
 
 ```bash
-winfetch
+.\winfetch.exe
 ```
-
----
 
 ## 🎯 Why I Built This
 
@@ -83,17 +60,3 @@ I built WinFetch as a **learning project** to:
 * It may face some bugs
 
 This project is still improving, and I’m learning as I go 🚀
-
----
-
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-## ❤️ Credits
-
-Inspired by **FastFetch**
-
-Crafted with ❤️ by a noob developer called faith.
