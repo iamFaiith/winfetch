@@ -427,31 +427,18 @@ getBatteryStatus(){
   }
 
   SetColor(14);
-  std::cout << "Battery Status: ";
+  std::cout << "Battery Percentage: ";
   SetColor(7);
 
-  if (ps.BatteryFlag & 1)  std::cout << "High ";
-  else if (ps.BatteryFlag & 2)  std::cout <<"Low ";
-  else if (ps.BatteryFlag & 4)  std::cout <<"Critical ";
-  else if (ps.BatteryFlag & 8)  std::cout <<"Charging ";
-  else if (ps.BatteryFlag & 128) std::cout <<"No System Battery ";
-  else{
-    SetColor(4);
-    std::cout << "Unknown ";
-    SetColor(7);
-  }
-
-  std::cout << "(";
   if (ps.BatteryLifePercent == 255){
     SetColor(4);
-    std::cout << "Unknown%" << std::endl;
+    std::cout << "Unknown" << std::endl;
     SetColor(7);
   }else{
-  SetColor(10);
-  std::wcout << (ps.BatteryLifePercent) << "%";
+    SetColor(10);
+    std::wcout << (ps.BatteryLifePercent) << "%";
+    SetColor(7);
   }
-  SetColor(7);
-  std::cout << ")" << std::endl;
 
 };
 
